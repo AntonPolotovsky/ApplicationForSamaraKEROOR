@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/womenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".presentation.women.view.FragmentWomen">
+
+    <ImageView
+        android:id="@+id/imageWomen"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/old_club"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewWomenTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Женский клуб"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageWomen"
+        />
+
+    <TextView
+        android:id="@+id/textViewWomen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/women1"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewWomenTop"
+        />
+
+    <TextView
+        android:id="@+id/textViewWomen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:text="@string/women2"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWomen1"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

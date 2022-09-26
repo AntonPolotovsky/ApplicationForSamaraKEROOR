@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mainFragment"
+            android:icon="@drawable/ic_about"
+            android:title="@string/toMainFragment"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+
+            android:title="@string/menu_about"
+
+            />
+        <item
+            android:id="@+id/traditions"
+            android:icon="@drawable/ic_about"
+            android:title="@string/traditions" />
+        <item
+            android:id="@+id/women"
+            android:icon="@drawable/ic_about"
+            android:title="@string/women" />
+        <item
+            android:id="@+id/children"
+            android:icon="@drawable/ic_about"
+            android:title="@string/teenagers" />
+        <item
+            android:id="@+id/pensioners"
+            android:icon="@drawable/ic_about"
+            android:title="@string/pensioners" />
+        <item
+            android:id="@+id/volunteering"
+            android:icon="@drawable/ic_about"
+            android:title="@string/volunteers" />
+        <item
+            android:id="@+id/сafe"
+            android:icon="@drawable/ic_about"
+            android:title="@string/kafe" />
+        <item
+            android:id="@+id/medTourism"
+            android:icon="@drawable/ic_about"
+            android:title="@string/medTourism" />
+    </group>
+</menu>

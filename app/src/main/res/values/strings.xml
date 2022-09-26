@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Keroor</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Keroor_botom">© 2021 Централизованная религиозная организация ортодоксального иудаизма “Конгресс еврейских религиозных организаций и объединений в России”</string>
+    <string name="samaraCommunity">Самарская Еврейская Община</string>
+
+    <string-array name="mainMenu">
+        <item>Об общине</item>
+        <item>Рассписание Шаббата</item>
+        <item>Мероприятия для детей</item>
+        <item>мероприятия для врослых</item>
+    </string-array>
+
+
+    <string name="action_about">About</string>
+    <string name="action_young">Young</string>
+    <string name="action_old">Old</string>
+
+
+    <string name="mission">НАША МИССИЯ</string>
+    <string name="missionText">Способствовать развитию еврейской религиозной жизни на территории Самарской области, делая соблюдение еврейской традиции привлекательным и комфортным посредством координации, направления и поддержки деятельности еврейских общин и организаций.</string>
+    <string name="details">Унать больше о KEROOR в Самаре</string>
+    <string name="fragment3Top">Для полноценной еврейской жизни и сохранения национальных традиций вне пределов Израиля необходима определенная инфраструктура:</string>
+    <string name="fragment3MainTextPart1">Cинагоги, культурные и религиозные центры, библиотеки, детские сады, школы, ешивы и семинарии для девушек.</string>
+    <string name="fragment3MainTextPart2">Синагоги и религиозные центры должны иметь возможность предоставить прихожанам молитвенники, книги для изучения Торы, предметы иудаики (тфилины, талиты, мезузы и т. д.).</string>
+    <string name="fragment3MainTextPart3">Особое внимание уделяется вопросу поддержки общин страны кошерной едой и поставки специальных продуктовых наборов в дни национальных праздников.</string>
+    <string name="fragment3MainTextPart4">КЕРООР реализует комплекс проектов по обеспечению евреев России всем необходимым для ведения полноценной еврейской жизни.</string>
+
+
+
+
+
+    <string name="menu_about">О нас</string>
+    <string name="donationButom">Поддержать</string>
+    <string name="donationText">Вы можете поддержать общину.</string>
+    <string name="nav_open">nav_o</string>
+    <string name="nav_close">nav_c</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="toMainFragment">На главную</string>
+    <string name="women">Женский клуб</string>
+    <string name="traditions">Наши традиции</string>
+    <string name="teenagers">Подростковый клуб</string>
+    <string name="pensioners">Пожилым</string>
+    <string name="volunteers">Благотворительнсть</string>
+    <string name="kafe">Кафе</string>
+    <string name="medTourism">Медицинский туризм</string>
+    <string name="samara">Самарская община</string>
+    <string name="women1">Женский Клуб при синагоге общины «Дор Цаир» открылся в 2017 году. Самым первым проектом, который продолжается и по сей день, можно считать «Халы по четвергам». Каждый четверг женщины собираются делать тесто для общины и для своих семей, благословляя своих родных и близких.</string>
+    <string name="women2">На сегодняшний день женский клуб общины «Дор Цаир» активно сотрудничает с «Забота-Хэсед Эстер», Проектом Кешер России, программой «Моментум», что позволяет предложить самарским еврейкам массу возможностей для личностного и профессионального роста.</string>
+
+
+    <string name="pensioners1">Мы стараемся, чтобы пожилые евреи в нашем городе не чувствовали себя вне общины. Поэтому проект «Забота-Хэсед Эстер» «ПРЕОДОЛЕНИЕ ОДИНОЧЕСТВА У ПОЖИЛЫХ ЛЮДЕЙ» с самого первого дня получил нашу полную поддержку. В допандемийные времена пожилые люди еженедельно собирались в синагоге на урок от рав Александра Гольденгерша по еврейской традиции и трапезу. С приходом covid-19 встречи перешли в онлайн, но не прервались.</string>
+    <string name="pensioners2">Пожилые люди интегрированы во все программы общины. Мы очень рады их участию в онлайн уроках, в общинных еврейских праздниках, в еженедельных женских встречах на «Халах по четвергам».</string>
+    <string name="pensioners3">Мы верим, что наше внимание помогает пожилым людям продлить жизнь и сделать её качество лучше.</string>
+
+
+
+    <string name="volMainText1">Община «Дор Цаир» старается поддержать тех, кто испытывает сложности в этой жизни.</string>
+    <string name="volMainText2">Прежде всего – это пожилые и малоимущие люди. При поддержке КЕРООР наша община может регулярно обеспечивать их кошерными продуктами. Также регулярно собираются средства для того, чтобы организовать праздничные трапезы к еврейским праздникам. В период пандемии силами общины с апреля по октябрь мы смогли дважды в неделю обеспечивать одиноких пожилых людей, а также больных covid-19, горячими обедами.</string>
+    <string name="volMainText3">С марта 2022 года наша община старается поддержать вынужденных переселенцев из ЛДНР. Помогаем лекарствами, врачебными консультациями, фруктами. Летом мы постарались собрать в школу 42 первоклассника, обеспечив их нужными канцтоварами.</string>
+    <string name="lbl_amount">amount</string>
+    <string name="lbl_ccy">ccy</string>
+    <string name="lbl_email">email</string>
+    <string name="lbl_description">description</string>
+    <string name="btn_pay">pay</string>
+
+</resources>

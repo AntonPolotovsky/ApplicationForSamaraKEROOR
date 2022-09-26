@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.mainpage.view.FragmentMainPage">
+
+
+    <ImageView
+        android:id="@+id/sinagog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_background"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/textEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:text="@string/Keroor_botom"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SmallSp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/community"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:text="@string/samaraCommunity"
+        android:textColor="@color/text_color"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/donation"-->
+<!--    android:layout_width="200dp"-->
+<!--    android:layout_height="100dp"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:cardBackgroundColor="@color/blue"-->
+<!--    app:cardCornerRadius="15dp"-->
+<!--    android:layout_margin="20dp"-->
+
+<!--    >-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center"-->
+
+
+<!--        android:textColor="@color/white"-->
+
+<!--        android:text="@string/donationButom"-->
+<!--        />-->
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/donation"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:background="@color/blue"-->
+<!--        android:text="@string/donationButom"-->
+<!--        android:layout_margin="20dp"-->
+
+<!--        />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

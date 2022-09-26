@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/traditions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    >
+
+    <ImageView
+        android:id="@+id/imageTraditions"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/fragment3_top_backgroud"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textViewTraditionsTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Наши традиции"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageTraditions"
+        />
+
+    <TextView
+        android:id="@+id/tradText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="4"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:text="Вы можете посмотреть запись уроков по еврейской традиции от главного раввина Самары и области (от КЕРООР) рав Александра Гольденгерша на нашем ютюб канале:"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTraditionsTop" />
+
+
+    <TextView
+        android:id="@+id/tradUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:shadowColor="@color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="4"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:text="https://www.youtube.com/channel/UCGEY-AQjRfWiPlru36AXxBA"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tradText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

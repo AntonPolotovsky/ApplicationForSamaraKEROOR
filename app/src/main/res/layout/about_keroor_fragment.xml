@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aboutKeroor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.aboutkeroor.view.FragmentAboutKeroor">
+
+    <ImageView
+        android:id="@+id/sinagog2"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choral_synagoge1"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/purple_700"
+        android:text="@string/mission"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:textStyle="bold"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="9"
+        android:shadowColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:text="@string/missionText"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mission" />
+<!--    <ImageView-->
+<!--        android:id="@+id/backFragment2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_arrow_back_left_icon_123734"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_margin="15dp"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/about"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"
+        android:text="@string/details"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/beatrix_antiqua_semi_bold"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="9"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
